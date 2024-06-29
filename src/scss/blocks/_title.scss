@@ -1,0 +1,44 @@
+.title {
+	font-weight: 300;
+	line-height: 60px;
+	text-transform: uppercase;
+
+	&_fz14 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	&_fz18 {
+		font-size: 18px;
+		line-height: 32px;
+	}
+
+	&_fz22 {
+		font-size: 22px;
+		line-height: 38px;
+	}
+
+	&_fz24 {
+		font-size: 24px;
+		line-height: 48px;
+	}
+
+	&_fz30 {
+		font-size: 30px;
+		line-height: 48px;
+	}
+
+	&_fz40 {
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	&_fz48 {
+		font-size: 48px;
+	}
+
+	&_fz80 {
+		font-size: 80px;
+		line-height: 100px;
+	}
+}

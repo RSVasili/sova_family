@@ -1,0 +1,12 @@
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+	&__medium {
+		width: 1660px;
+	}
+
+	&__full {
+		width: 100%;
+	}
+}

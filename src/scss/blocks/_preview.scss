@@ -1,0 +1,38 @@
+.preview {
+	//max-height: 578px;
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: 578px;
+		justify-content: space-between;
+	}
+
+	&__description {
+		padding: 118px 178px;
+		width: 100%;
+		height: 100%;
+		background-color: var(--main-color);
+		&-title {
+			color: var(--second-color);
+		}
+
+		&-text {
+			width: 100%;
+			margin-top: 40px;
+			font-size: 18px;
+			font-weight: 200;
+			color: var(--thirth-color);
+		}
+	}
+
+	&__photo {
+
+		img {
+			width: 100%;
+			height: 578px;
+			display: block;
+			object-fit: cover;
+		}
+	}
+}

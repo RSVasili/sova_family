@@ -1,0 +1,39 @@
+.possibilities {
+	padding: 120px 30px;
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: auto 712px;
+		column-gap: 120px;
+	}
+
+	&__description {
+		padding-left: 193px;
+	}
+
+	&__title {
+		font-weight: 400;
+		color: var(--main-color);
+	}
+
+	&__block {
+		margin-top: 49px;
+
+		&-title {
+			font-weight: 600;
+			text-transform: none;
+			color: var(--fourth-color);
+		}
+
+		&-text {
+			margin-top: 13px;
+			font-size: 17px;
+			line-height: 32px;
+			color: var(--thirth-color);
+		}
+	}
+}
+
+.black {
+	color: var(--main-color);
+}

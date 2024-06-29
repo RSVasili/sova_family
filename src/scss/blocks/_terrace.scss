@@ -1,0 +1,35 @@
+.terrace {
+	padding: 30px 0 300px 0;
+
+	&__title {
+		font-weight: 400;
+		text-align: center;
+	}
+
+	&__wrapper {
+		margin-top: 50px;
+		display: grid;
+		grid-template-columns: repeat(2, 565px);
+		column-gap: 40px;
+		justify-content: space-between;
+	}
+
+	&__description {
+		&-title {
+			font-weight: 600;
+			text-transform: none;
+		}
+
+		&-text {
+			margin-top: 20px;
+			font-size: 16px;
+			line-height: 28px;
+			color: var(--thirth-color);
+		}
+	}
+}
+
+.bottom__title {
+	margin-top: 20px;
+	color: var(--fourth-color);
+}

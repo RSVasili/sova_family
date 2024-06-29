@@ -1,0 +1,35 @@
+.menu {
+	padding: 158px 0;
+	background-image: url("../../images/menu_image.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -400px;
+	height: 604px;
+
+	&__description {
+		width: 518px;
+
+		&-title {
+			color: var(--fourth-color);
+			font-weight: 400;
+		}
+
+		&-text {
+			margin-top: 56px;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 34px;
+			color: var(--main-color);
+		}
+
+		&-arrow {
+			text-align: start;
+
+			img {
+				margin-top: 56px;
+				width: 32px;
+				height: 38px;
+			}
+		}
+	}
+}
