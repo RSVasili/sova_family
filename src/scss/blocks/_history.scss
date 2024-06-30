@@ -1,0 +1,49 @@
+.history {
+	padding: 120px 0 60px 0;
+
+	&_second {
+		padding: 60px 0 60px 0;
+	}
+
+	&_third {
+		padding: 60px 0 120px 0;
+	}
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 468px 585px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__title {
+		font-weight: 400;
+		line-height: 32px;
+	}
+
+	&__subtitle {
+		font-weight: 600;
+		line-height: 32px;
+	}
+
+	&__text {
+		margin-top: 35px;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 26px;
+		color: var(--thirth-color);
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	&__photo {
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}

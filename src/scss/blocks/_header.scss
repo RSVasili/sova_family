@@ -33,11 +33,18 @@
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
 
-
 			a {
 				text-decoration: none;
 				color: var(--second-color);
+				transition: all 0.3s;
 
+				&:hover {
+					color: var(--fourth-color);
+				}
+
+				&:focus {
+					color: var(--second-color);
+				}
 			}
 		}
 

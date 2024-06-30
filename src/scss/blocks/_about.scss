@@ -1,0 +1,11 @@
+.about {
+	padding: 301px 0 180px 0;
+	position: relative;
+	height: 535px;
+
+	&__title {
+		font-weight: 400;
+		color: var(--second-color);
+		text-align: center;
+	}
+}

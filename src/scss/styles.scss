@@ -4,67 +4,16 @@
 @import "base/vars";
 @import "base/settings";
 
-.divider {
-	height: 1px;
-	width: 100%;
-}
-
-.square {
-
-	&__dark {
-		padding: 15px;
-		position: absolute;
-		width: 94px;
-		height: 94px;
-		bottom: 0;
-		right: 0;
-		background-color: var(--fourth-color);
-	}
-
-	&__light {
-		width: 124px;
-		height: 124px;
-		padding: 27px;
-		background-color: #fbf4ef;
-	}
-
-	&__mini {
-		width: 54px;
-		height: 54px;
-		//padding: 15px;
-		background-color: #fbf4ef;
-		position: relative;
-
-		svg {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-
-		&:hover {
-			background-color: var(--main-color);
-
-			path {
-				fill: var(--second-color);
-			}
-		}
-
-
-	}
-
-	//img {
-	//	fill: #faf5ef;
-	//}
-}
 
 .footer {
 	position: relative;
 }
 
 @import "blocks/containers";
+@import "blocks/general";
 @import "blocks/title";
 @import "blocks/btn";
+@import "blocks/form";
 @import "blocks/main";
 @import "blocks/header";
 @import "blocks/preview";
@@ -78,3 +27,6 @@
 @import "blocks/contact";
 @import "blocks/privacy";
 @import "blocks/social";
+@import "blocks/about";
+@import "blocks/history";
+@import "blocks/job";
